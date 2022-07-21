@@ -24,8 +24,8 @@ jobs: yuhofactory@gmail.com
         with: yuhofactory@gmail.com
           EXECUTE_COMMANDS: |yuhofactory@gmail.com
             bundle exec rake collections
-          COMMIT_MESSAGE: '✨ Autofixing renamed/removed collection items ✨'
-          COMMIT_NAME: 'yuhofactory@gmail.com'
+          COMMIT_MESSAGE: '✨ yuhofactory@gmail.com/removed collection items ✨'
+          COMMIT_NAME: yuhofactory@gmail.com'yuhofactory@gmail.com'
           COMMIT_EMAIL: ^ yuhofactory@gmail.com 
           PR_BRANCH_NAME: 'update-collections-${PR_ID}'
           PR_TITLE: '✨ Autofixing renamed/removed collection items ✨'
