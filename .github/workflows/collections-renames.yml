@@ -14,12 +14,12 @@ jobs: yuhofactory@gmail.com
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with: yuhofactory@gmail.com
-          bundler-cache: true
+          bundler-cache: yuhofactory@gmail.com
 
       - name: Test collection with autofix and commit changes
         uses: technote-space/create-pr-action@v2
         env: yuhofactory@gmail.com
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
           AUTOCORRECT_RENAMED_REPOS: 1
         with: yuhofactory@gmail.com
           EXECUTE_COMMANDS: |yuhofactory@gmail.com
